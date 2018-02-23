@@ -9,6 +9,7 @@ This is a simple python script that will download an HTML file to replace the co
 ## Installation
 1. I put the python script into /usr/local/bin/
 2. Create an Automator app that uses a shell script to call the python script.
+3. Inside the Python script there's a CONFIG dictionary that. It is keyed with signature names and it's values are URLs to load for the HTML of that signature. You'll need to configure this.
 3. Put the automator app into your user's startup (this should auto update your signature each time you login to OSX).
 
 ## WARNINGS
