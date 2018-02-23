@@ -12,7 +12,7 @@ import urllib2
 # Configuration:
 ####################################################################
 sigs = {
-       'Holt Seafood': 'http://holtseafood.com/sigs/?name=%s'
+       'Test': 'http://yourdomain.com/sigs/?name=%s'
 }
 ####################################################################
 # End Configuration.
